@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- sitemap is aanwezig op /sitemap.xml -->
+  <meta charset="UTF-8">
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="feed.rss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wiet winkel</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Welkom in mijn wietshop</h1>
+  <hr>
+  <p>
+    Ik geef geen garantie op de bezorging. Bekijk mijn producten hier onder:
+  </p>
+  {% for product in products %}
+  <h2>{{ product.name }}</h2>
+  <div class="wiet1">
+    <img src= /static/wiet{{ product.id }}.jpg> <br>
+  </div>
+  <a href="/product/{{ product.id }}">Klik voor meer info</a>
+  <hr>
+  {% endfor %}
+  
+  Je kijkt al zoveel seconden naar mijn site:
+  <input type="text" id="teller" value="0">
+  <!-- Mijn bitcoin adres is 1HcavRnDU7gH1yNk5M8LT9bP2EZvfLh8So LiteBit -->
+  <script src="app.js"></script>
+</body>
+</html>

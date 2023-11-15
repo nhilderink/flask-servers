@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>Weed Feed</title>
+    <description>Dit is een feed die gaat over hoe je wiet kunt kweken</description>
+    <link>http://fritsweed.com</link>
+    <category domain="">Tuinieren</category>
+    <copyright>Copyright 2019</copyright>
+    <language>nl</language>
+    <lastBuildDate>Tue, 19 Feb 2019 13:39:14 +0100</lastBuildDate>
+    <managingEditor>Frits P.</managingEditor>
+    <pubDate>Tue, 19 Feb 2019 13:39:14 +0100</pubDate>
+    <webMaster>fritspoupier@gmail.com</webMaster>
+    <generator>FeedForAll Beta1 (0.0.1.8)</generator>
+    <item>
+      <title>UV-Licht om mee te kweken</title>
+      <description>
+        Een week geleden kocht ik bij greengrow.xyz 3 uw lampen van iGROW, type 9100K.
+        Ik heb ze getest en was er heel tevreden mee!
+      </description>
+      <link>http://greengrow.xyz/</link>
+      <category domain="">Growshop/Lampen</category>
+      <comments>geen</comments>
+      <pubDate>Tue, 19 Oct 2004 11:08:59 -0400</pubDate>
+    </item>
+
+  </channel>
+</rss>

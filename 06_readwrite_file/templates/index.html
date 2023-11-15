@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read write file</title>
+</head>
+<body>
+    <h1>Countries</h1>
+    <form action="/" method="post">
+        <span>Enter a new country: </span>
+        <input type="text" name="country">
+        <input type="submit">
+    </form>
+    <hr>
+    <h2>Countries</h2>
+    {% for country in countries %}
+        {{ country}}
+    {% endfor %}
+</body>
+</html>

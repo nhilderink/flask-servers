@@ -1,0 +1,35 @@
+/* Kleurschema staat op https://www.schemecolor.com/weed-green-color-scheme.php */
+
+body {
+  background-color: #93CB56;
+  color: white;
+  font-family: verdana;
+}
+
+h1 {
+  color: #355A20;
+}
+
+p {
+  color: #355A20;
+}
+
+a {
+  color: #059033;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: crosshair;
+  text-decoration: underline;
+}
+
+hr {
+  border-color: #93CB56;
+}
+
+.wiet1 img{
+  max-width: 279px;
+  object-fit: none;
+  object-position: center bottom;
+}

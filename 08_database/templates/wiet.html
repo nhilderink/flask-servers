@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>White Widow</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <a href="index.html">Terug</a>
+  <div class="wiet1">
+    <img src="/static/wiet{{ product.id }}.jpg"> <br>
+  </div>
+  <h1>{{ product.name}}</h1>
+  <hr>
+  <p>
+    {{ product.description }}
+  </p>
+  <hr>
+  <h2>Kun jij de prijs raden?</h2>
+  <input type="number" id="prijs"> <span id="hint"></span>
+  <hr>
+  Je kijkt al zoveel seconden naar mijn site:
+  <input type="text" id="teller" value="0">
+  <hr>
+  <iframe src="https://www.paypal.com/?vendor=t32311d1&product=wiet{{ product.id }}" frameborder="0"></iframe>
+  <script src="app.js"></script>
+</body>
+</html>
